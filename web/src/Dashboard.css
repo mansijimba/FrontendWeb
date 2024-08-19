@@ -1,0 +1,226 @@
+.flex {
+    display: flex;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+
+  
+  
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  /* Sidebar specific styles */
+  .sidebar {
+    width: 250px; /* Adjust the width as per your design */
+    background-color: #2d3748; /* Darker shade for the sidebar background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #a0aec0; /* Lighter text color */
+  }
+  
+  .sidebar-item:hover {
+    color: #f7fafc; /* Text color on hover */
+  }
+  
+  /* Header specific styles */
+  .header-admin {
+    background-color: #edf2f7; /* Light gray background for the header */
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .header-admin-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+  }
+  
+  /* Right content specific styles */
+  .right-content {
+    background-color: #fff; /* White background for the right content */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-content h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2d3748;
+    margin-bottom: 1rem;
+  }
+  
+  .right-content p {
+    font-size: 1rem;
+    color: #4a5568;
+    line-height: 1.5;
+  }
+  
+  .right-content .content-item {
+    margin-bottom: 1.5rem;
+  }
+  
+/* Ensure the Dashboard takes up the full viewport height */
+.dashboard {
+    display: flex;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    background-color: #405573; /* Dark background color */
+    color: #ffffff; /* White text color */
+    width: 20%; /* Adjust width as needed */
+    padding: 1rem; /* Padding for sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-content {
+    flex: 1; /* Takes the remaining space */
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    border-bottom: 1px solid #e5e7eb; /* Light border for header */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-container {
+    background-color: #ffffff; /* White background for form */
+    padding: 1rem;
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Light shadow */
+    max-width: 100%; /* Ensure it doesn’t overflow */
+    overflow-y: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; /* Spacing between form fields */
+  }
+  
+  .form-group label {
+    font-size: 0.875rem; /* Smaller font size for labels */
+    color: #4b5563; /* Gray color for labels */
+  }
+  
+  .form-group input {
+    width: 100%; /* Full width for input fields */
+  }
+  
+  button {
+    font-size: 19px; 
+    margin-top: 120px;
+    margin-left: 55px;
+  }
+
+  /* Table styles for product list */
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f3f4f6;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  tr:hover {
+    background-color: #f1f5f9;
+  }
+
+/* Custom CSS for Update and Remove buttons */
+
+/* Update button styles */
+/* Container for buttons */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    gap: 0.5rem; /* Space between buttons */
+  }
+  
+  /* Update button styles */
+  /* Container for buttons */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 0.5rem; /* Space between buttons */
+  }
+  
+  /* Update button styles */
+  button.update-btn {
+    background-color: #7c7fef; /* Custom color */
+    color: #1f2937; /* Custom text color */
+    padding: 0.5rem 1rem; /* Decreased padding */
+    font-size: 0.75rem; /* Smaller font size */
+    border: none; /* Remove default border */
+    border-radius: 0.375rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button.update-btn:hover {
+    background-color: #5fceed; /* Custom hover color */
+  }
+  
+  /* Remove button styles */
+  button.remove-btn {
+    background-color: #ef4444; /* Custom color */
+    color: #1f2937; /* White text color */
+    padding: 0.5rem 1rem; /* Decreased padding */
+    font-size: 0.75rem; /* Smaller font size */
+    border: none; /* Remove default border */
+    border-radius: 0.375rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button.remove-btn:hover {
+    background-color: #dc2626; /* Custom hover color */
+  }
+  
+  
+  
+  
